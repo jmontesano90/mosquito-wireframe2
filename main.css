@@ -1,0 +1,45 @@
+body{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mosquito{
+    /* display:flex; */
+    border: 1px black solid;
+    margin-right: auto;
+    margin-left: auto;
+    height: 200px;
+    width: 300px;
+    /* justify-content: center; */
+}
+
+.question-count{
+    margin-top: 5px;
+}
+
+footer{
+    position: absolute;
+    top: 400px;
+    right: 41%
+}
+.answers-top{
+    display:inline-block;
+    border: 1px black solid;
+    width: 20%;
+    height: 20%;
+}
+.answers-bottom{
+    display:inline-block;
+    border: 1px black solid;
+    width: 20%;
+    height: 20%;
+}
+.answer-container{
+    border: 1px black solid;
+    margin-right: auto;
+    margin-left: auto;
+    height: 200px;
+    width: 300px;
+    
+}
